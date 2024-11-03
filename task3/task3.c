@@ -6,8 +6,8 @@ int main() {
 	int byte = 0;
 	int bitCount = 0;
 
-	inFile = fopen("cx-202-lab7/bitstream.bit", "r");
-	outFile = fopen("task3/bitstream.hex", "w");
+	inFile = fopen("cx-202-lab7/bitstream1.bit", "r");
+	outFile = fopen("task3/bitstream1.hex", "w");
 
 	if (inFile == NULL || outFile == NULL) {
 		perror("Error! Could not open file.\n");
